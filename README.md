@@ -8,3 +8,8 @@
 
 - npm start -w @strawbang/client
 - npm test -w @strawbang/client
+
+### Api
+
+- npm start -w @strawbang/api
+- npm test -w @strawbang/api
