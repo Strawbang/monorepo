@@ -24,8 +24,8 @@
     }
   },
   "scripts": {
-    "start": "tsc && node dist/src/app.js",
-    "dev": "nodemon src/infrastructure/Server.ts",
+    "start": "tsc && node dist/src/Server/Server.js",
+    "dev": "nodemon src/Server/Server.ts",
     "lint": "eslint . --ext .ts",
     "test": "jest",
     "test:coverage": "jest --coverage",
