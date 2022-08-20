@@ -1,10 +1,6 @@
 # I dont know name of project
 
----
-
 ## How to start using this application
-
----
 
 ## Install
 
@@ -31,8 +27,6 @@
 ---
 
 ## Specifications
-
----
 
 #### CI
 
