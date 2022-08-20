@@ -2,6 +2,8 @@
 
 ## How to start using this application
 
+---
+
 ## Install
 
 📁 In **folder monorepo** to install all dependencies of project
@@ -27,6 +29,8 @@
 ---
 
 ## Specifications
+
+---
 
 #### CI
 
