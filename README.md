@@ -4,11 +4,15 @@
 
 ## How to start using this application
 
+---
+
 ## Install
 
 📁 In **folder monorepo** to install all dependencies of project
 
 > `$ npm i`
+
+---
 
 ### Client
 
@@ -16,13 +20,19 @@
 >
 > `$ npm test -w @strawbang/client`
 
+---
+
 ### Api
 
 > `$ npm start -w @strawbang/api`
 >
 > `$ npm test -w @strawbang/api`
 
+---
+
 ## Specifications
+
+---
 
 #### CI
 
