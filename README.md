@@ -13,3 +13,7 @@
 
 - npm start -w @strawbang/api
 - npm test -w @strawbang/api
+
+## Specifications
+
+- Use monorepo
