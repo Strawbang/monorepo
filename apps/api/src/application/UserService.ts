@@ -22,8 +22,6 @@ export class UserService {
   async getUsers(): Promise<object> {
     try {
       const users = await this.userRepo.getUsers();
-      // console.log(users);
-      // return await 'test';
       return users;
     } catch (error) {
       return await error;

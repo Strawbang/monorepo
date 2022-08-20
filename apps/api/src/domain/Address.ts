@@ -1,3 +1,8 @@
+/**
+ * @class Address
+ * @desc Object Domain
+ **/
+
 export default class Address {
   constructor(
     public readonly street: string,

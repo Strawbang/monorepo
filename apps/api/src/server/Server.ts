@@ -1,4 +1,4 @@
-import { app } from '../infrastructure/AppExpress';
+import { app } from '../app/ExpressApp';
 import http from 'http';
 
 const port = process.env.PORT || 8080;

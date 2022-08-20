@@ -1,5 +1,10 @@
 import Address from './Address';
 
+/**
+ * @class Person
+ * @desc Object Domain
+ **/
+
 export default class Person {
   constructor(
     public readonly firstname: string,
