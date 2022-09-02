@@ -2,8 +2,6 @@
 
 ## How to start using this application
 
----
-
 ## Install
 
 📁 In **folder monorepo** to install all dependencies of project
@@ -17,6 +15,8 @@
 > `$ npm start -w @strawbang/client`
 >
 > `$ npm test -w @strawbang/client`
+>
+> `$ npm run build-storybook -w @strawbang/client && npm run storybook -w @strawbang/client`
 
 ---
 
@@ -29,8 +29,6 @@
 ---
 
 ## Specifications
-
----
 
 #### CI
 
@@ -53,6 +51,7 @@ NodeJs
 
 - Use React
 - Use Typescript
+- Use StoryBook
 
 Architecture :
 
