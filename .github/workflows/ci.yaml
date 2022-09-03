@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
   pull_request:
-    branches: [main]
+    branches: [main, develop]
 
 jobs:
   build:
@@ -23,3 +23,6 @@ jobs:
       - run: npm ci -w @strawbang/api
       - run: npm run build -w @strawbang/api --if-present
       - run: npm test -w @strawbang/api
+      - run: npm ci -w @strawbang/client
+      - run: npm run build -w @strawbang/client --if-present
+      - run: npm test -w @strawbang/client
